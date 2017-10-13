@@ -1,12 +1,13 @@
 ﻿using System.Windows;
 using SuperSocket.SocketBase;
+using Telerik.Windows.Controls;
 
-namespace ControlConversionServer
+namespace ControlConversionServer.View
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : RadWindow
     {
         private AppServer _appServer;
         public MainWindow()
